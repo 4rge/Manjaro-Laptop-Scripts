@@ -2,7 +2,7 @@
 
 sudo pacman-key --refresh
 sudo pacman -Sy archlinux-keyring mesa lib32-mesa mesa-vdpau lib32-mesa-vdpau lib32-vulkan-radeon vulkan-radeon glu lib32-glu vulkan-icd-loader lib32-vulkan-icd-loader thermald --noconfirm
-yay -Sy preload auto-cpufreq ananicy-cpp waydroid-git --noconfirm
+yay -Sy preload auto-cpufreq ananicy-cpp --noconfirm
 
 git clone https://github.com/revumber/ananicy-rules
 rm ananicy-rules/README.md ananicy-rules/LICENSE
