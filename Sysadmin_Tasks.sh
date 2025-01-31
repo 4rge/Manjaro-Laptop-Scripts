@@ -68,6 +68,7 @@ declare -A packages=(
     ["vulkan-icd-loader"]=0
     ["lib32-vulkan-icd-loader"]=0
     ["thermald"]=0
+    ["memcached"]=0
 )
 
 # Install necessary packages
@@ -100,6 +101,7 @@ declare -A services=(
     ["thermald.service"]=0
     ["auto-cpufreq.service"]=0
     ["ananicy-cpp.service"]=0
+    ["memcached.service"]=0
 )
 
 # Enable services and check status
